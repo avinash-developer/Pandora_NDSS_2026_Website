@@ -1,0 +1,51 @@
+/* Version 3: Minimal black and white */
+:root {
+  --primary-color: #111111;
+  --primary-hover: #111111;
+  --text-primary: #111111;
+  --text-secondary: #222222;
+  --border-color: #d9d9d9;
+}
+
+body,
+.hero,
+.hero.is-light,
+.section,
+.section.is-light {
+  background: #ffffff !important;
+}
+
+.publication-title,
+.title.is-3,
+.title.is-5 {
+  color: #111111 !important;
+}
+
+.title.is-3::after {
+  width: 36px;
+  height: 2px;
+  background: #cfcfcf !important;
+}
+
+.button.is-dark {
+  background: #111111 !important;
+  border-radius: 4px !important;
+  letter-spacing: 0.01em;
+}
+
+figure,
+.publication-video,
+.table,
+pre {
+  border: 1px solid #dfdfdf !important;
+  border-radius: 4px !important;
+}
+
+figcaption {
+  color: #444444;
+}
+
+.table thead th {
+  background: #f7f7f7 !important;
+  color: #111111 !important;
+}
